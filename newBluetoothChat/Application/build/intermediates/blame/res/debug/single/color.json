@@ -20,12 +20,12 @@
         "source": "C:\\Users\\yuma\\AndroidStudioProjects\\newBluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\yuma\\Documents\\NG_1603\\newBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\yuma\\Documents\\NG_1603\\newBluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\yuma\\AndroidStudioProjects\\newBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
         "source": "C:\\Users\\yuma\\AndroidStudioProjects\\newBluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\yuma\\Documents\\NG_1603\\newBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\yuma\\Documents\\NG_1603\\newBluetoothChat\\Application\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
         "merged": "C:\\Users\\yuma\\Documents\\NG_1603\\newBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
