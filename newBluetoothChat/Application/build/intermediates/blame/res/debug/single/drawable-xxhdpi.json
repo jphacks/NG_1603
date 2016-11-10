@@ -4,6 +4,14 @@
         "source": "C:\\Users\\yuma\\AndroidStudioProjects\\newBluetoothChat\\Application\\src\\main\\res\\drawable-xxhdpi\\ic_action_device_access_bluetooth_searching.png"
     },
     {
+        "merged": "C:\\Users\\yuma\\Documents\\NG_1603\\newBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\yuma\\Documents\\NG_1603\\newBluetoothChat\\Application\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\yuma\\Documents\\NG_1603\\newBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_action_device_access_bluetooth_searching.png",
+        "source": "C:\\Users\\yuma\\Documents\\NG_1603\\newBluetoothChat\\Application\\src\\main\\res\\drawable-xxhdpi\\ic_action_device_access_bluetooth_searching.png"
+    },
+    {
         "merged": "C:\\Users\\yuma\\AndroidStudioProjects\\newBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_launcher.png",
         "source": "C:\\Users\\yuma\\AndroidStudioProjects\\newBluetoothChat\\Application\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     }

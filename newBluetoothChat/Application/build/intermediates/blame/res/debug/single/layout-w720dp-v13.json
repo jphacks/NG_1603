@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\yuma\\AndroidStudioProjects\\newBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout-w720dp-v13\\activity_main.xml",
         "source": "C:\\Users\\yuma\\AndroidStudioProjects\\newBluetoothChat\\Application\\src\\main\\res\\layout-w720dp\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yuma\\Documents\\NG_1603\\newBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\layout-w720dp-v13\\activity_main.xml",
+        "source": "C:\\Users\\yuma\\Documents\\NG_1603\\newBluetoothChat\\Application\\src\\main\\res\\layout-w720dp\\activity_main.xml"
     }
 ]
