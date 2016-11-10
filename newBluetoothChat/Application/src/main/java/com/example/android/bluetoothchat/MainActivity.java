@@ -56,10 +56,10 @@ public class MainActivity extends SampleActivityBase implements OnTouchListener 
     public static final String TAG = "MainActivity";
 
     // Whether the Log Fragment is currently shown
-    private boolean mLogShown;
+    //private boolean mLogShown;
     private boolean chatflag=false;
-    private boolean button1flag=false;
-    private boolean button2flag=false;
+    //private boolean button1flag=false;
+    //private boolean button2flag=false;
     private MotionEvent motionevent;
     private int mouseid;
     private String x;
@@ -80,10 +80,7 @@ public class MainActivity extends SampleActivityBase implements OnTouchListener 
 
 
         if (savedInstanceState == null) {
-            FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-            //BluetoothChatFragment fragment = new BluetoothChatFragment();
-            //transaction.replace(R.id.sample_content_fragment, fragment);
-            transaction.commit();
+
         }
 
         View container=findViewById(R.id.activity_main);
@@ -115,24 +112,26 @@ public class MainActivity extends SampleActivityBase implements OnTouchListener 
                 if(fragment.mChatService.getState() != BluetoothChatService.STATE_CONNECTED && chatflag==true){
                     chatflag=false;
                 }
-                double X=event.getX(event.findPointerIndex(mouseid));
-                double Y=event.getY(event.findPointerIndex(mouseid));
-                if(X<0)
-                    X=0;
-                if(Y<0) {
-                    Y = 0;
+                if(fragment.mChatService.getState() == BluetoothChatService.STATE_CONNECTED) {
+                    double X = event.getX(event.findPointerIndex(mouseid));
+                    double Y = event.getY(event.findPointerIndex(mouseid));
+                    if (X < 0)
+                        X = 0;
+                    if (Y < 0) {
+                        Y = 0;
+                    }
+                    x = String.valueOf((int) X * 1000000);
+                    y = String.valueOf((int) Y * 1000000);
+                    while (x.length() < 10) {
+                        x = "0" + x;
+                    }
+                    while (y.length() < 10) {
+                        y = "0" + y;
+                    }
+                    oldx = x;
+                    oldy = y;
+                    fragment.sendMessage(x + "," + y + ",0,0\n");
                 }
-                x=String.valueOf((int)X*1000000);
-                y=String.valueOf((int)Y*1000000);
-                while(x.length()<10){
-                    x="0"+x;
-                }
-                while(y.length()<10){
-                    y="0"+y;
-                }
-                oldx=x;
-                oldy=y;
-                fragment.sendMessage(x+","+y+",0,0\n");
                 return false;
             }
         });
@@ -184,38 +183,6 @@ public class MainActivity extends SampleActivityBase implements OnTouchListener 
 
     }
 
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onPrepareOptionsMenu(Menu menu) {
-        MenuItem logToggle = menu.findItem(R.id.menu_toggle_log);
-        logToggle.setVisible(findViewById(R.id.sample_output) instanceof ViewAnimator);
-        logToggle.setTitle(mLogShown ? R.string.sample_hide_log : R.string.sample_show_log);
-
-        return super.onPrepareOptionsMenu(menu);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.menu_toggle_log:
-                mLogShown = !mLogShown;
-                ViewAnimator output = (ViewAnimator) findViewById(R.id.sample_output);
-                if (mLogShown) {
-                    output.setDisplayedChild(1);
-                } else {
-                    output.setDisplayedChild(0);
-                }
-                supportInvalidateOptionsMenu();
-                return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
 
     /** Create a chain of targets that will receive log data */
     @Override
