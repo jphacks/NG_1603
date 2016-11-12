@@ -44,7 +44,7 @@ int APIENTRY WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
 				{
 					sscanf(date,"%d,%d,%d,%d",&X,&Y,&L,&R);
 
-					x=round(1280-Y*CO_X);
+					x=round(PC_MAX_X-Y*CO_X);
 					y=round(X*CO_Y);
 
 					SetCursorPos(x,y);
