@@ -4,6 +4,10 @@
         "source": "C:\\Users\\yuma\\AndroidStudioProjects\\newBluetoothChat\\Application\\src\\main\\res\\menu\\main.xml"
     },
     {
+        "merged": "C:\\Users\\yuma\\Documents\\NG_1603\\newBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth_chat.xml",
+        "source": "C:\\Users\\yuma\\Documents\\NG_1603\\newBluetoothChat\\Application\\src\\main\\res\\menu\\bluetooth_chat.xml"
+    },
+    {
         "merged": "C:\\Users\\yuma\\AndroidStudioProjects\\newBluetoothChat\\Application\\build\\intermediates\\res\\merged\\debug\\menu\\bluetooth_chat.xml",
         "source": "C:\\Users\\yuma\\AndroidStudioProjects\\newBluetoothChat\\Application\\src\\main\\res\\menu\\bluetooth_chat.xml"
     }

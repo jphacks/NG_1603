@@ -39,8 +39,7 @@
                   android:paddingLeft="@dimen/margin_medium"
                   android:paddingRight="@dimen/margin_medium"
                   android:paddingTop="@dimen/margin_large"
-                  android:paddingBottom="@dimen/margin_large"
-                  android:text="@string/intro_message" />
+                  android:paddingBottom="@dimen/margin_large" />
         </FrameLayout>
 
         <View

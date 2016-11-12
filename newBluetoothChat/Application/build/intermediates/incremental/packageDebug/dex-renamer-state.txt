@@ -1,4 +1,4 @@
-#Sun Nov 06 13:06:06 JST 2016
-base.0=C\:\\Users\\yuma\\AndroidStudioProjects\\newBluetoothChat\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Thu Nov 10 20:30:48 JST 2016
+base.0=C\:\\Users\\yuma\\Documents\\NG_1603\\newBluetoothChat\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
-file.0=C\:\\Users\\yuma\\AndroidStudioProjects\\newBluetoothChat\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.0=C\:\\Users\\yuma\\Documents\\NG_1603\\newBluetoothChat\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
